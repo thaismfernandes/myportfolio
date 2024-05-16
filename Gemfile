@@ -36,13 +36,9 @@
 #gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 ##############versao nova###########
+
 source "https://rubygems.org"
 
-# gem "jekyll", "~> 4.3.3" # Comentado porque o github-pages já inclui jekyll
-
-gem "minima", "~> 2.5.1"
-
-# Para usar com o GitHub Pages, remova a linha acima (gem "jekyll") e adicione a linha abaixo
 gem "github-pages", group: :jekyll_plugins
 
 gem 'webrick'
