@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
-
 gem "webrick"
 
 group :jekyll_plugins do
@@ -13,7 +12,9 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo-data"
 end
 
-gem "wdm", "~> 0.1.1", platforms: [:mingw, :x64_mingw, :mswin]
+platforms :mingw, :x64_mingw, :mswin do
+  gem "wdm", "~> 0.1.1"
+end
 
 gem "http_parser.rb", "~> 0.6.0", platforms: [:jruby]
 
