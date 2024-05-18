@@ -20,7 +20,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        gem install bundler:2.5.10
+        gem install bundler
         bundle install
 
     - name: Build Jekyll site
