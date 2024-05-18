@@ -1,7 +1,11 @@
 source "https://rubygems.org"
 
-gem "github-pages", "~> 227", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 gem "webrick"
+
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.12"
+end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", "~> 1.2", "< 3"
