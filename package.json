@@ -1,0 +1,16 @@
+{
+  "name": "myportfolio-jekyll",
+  "version": "1.0.0",
+  "description": "Meu portfólio online usando Jekyll",
+  "main": "index.js",
+  "scripts": {
+    "start": "jekyll serve"
+  },
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "jekyll": "^3.0.0-beta1"
+  },
+  "devDependencies": {},
+  "keywords": []
+}

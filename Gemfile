@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "jekyll", "~> 3.9"
 gem "github-pages", group: :jekyll_plugins
 gem "webrick"
 
@@ -17,4 +18,3 @@ platforms :mingw, :x64_mingw, :mswin do
 end
 
 gem "http_parser.rb", "~> 0.6.0", platforms: [:jruby]
-
